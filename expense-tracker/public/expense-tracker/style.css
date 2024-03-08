@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+  }
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .expense-description {
+    color: #333333;
+  }
+
+  .expense-amount {
+    color: #4caf50;
+  }
